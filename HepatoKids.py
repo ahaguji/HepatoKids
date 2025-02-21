@@ -6,7 +6,7 @@ import shap
 import matplotlib.pyplot as plt
 
 # 加载模型和标准化器
-gbc_model = joblib.load('D:/毕业/专利/ALT/HepatoKids.pkl')
+gbc_model = joblib.load('HepatoKids.pkl')
 
 feature_names = ["ALT","AST","GGT","HBsAg","HCT","PCT"]
 
